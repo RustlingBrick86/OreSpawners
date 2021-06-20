@@ -19,3 +19,4 @@ Put the .phar file, in your plugins folder and restart the server
 # Issues & Suggestions
 If you have any problem, questions or suggestions.
 Please join my support server [here](https://discord.gg/M7FA5D3), or open an issue.
+Added Endstone + Obsidian, Changed max in 1 stack to 10, changed delay to 5
