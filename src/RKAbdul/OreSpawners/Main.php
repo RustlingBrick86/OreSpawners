@@ -36,8 +36,7 @@ class Main extends PluginBase
         }
 
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-        DenielWorld\EzTiles\EzTiles
-        EzTiles::register($this);
+        DenielWorld\EzTiles\EzTiles\EzTiles::register($this);
         EzTiles::init();
     }
     
