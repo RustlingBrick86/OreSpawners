@@ -19,6 +19,8 @@ ore-generator-blocks:
   emerald: "225"
   lapis: "231"
   redstone: "234"
+  end_stone: "121"
+  obsidian: "49"
 
 # Name that will be given to each ore spawner
 # Use {ore} for the ore type
@@ -36,7 +38,7 @@ fizz-sound: true
 stacking: true
 
 # Max limit of stacks on 1 orespawner
-max: 5
+max: 10
 
 # Message that will be shown when a user stacks an orespawner
 gen-added: "&aSuccessfully stacked 1 orespawner"
@@ -49,4 +51,4 @@ drop-xp: true
 
 # Base time delay you want in seconds in each ore spawn
 # If stacking system is on, delay will be counted as base-count divided by stacked amount
-base-delay: "2"
+base-delay: "5"
