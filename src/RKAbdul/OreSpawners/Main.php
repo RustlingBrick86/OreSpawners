@@ -52,7 +52,7 @@ class Main extends PluginBase
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args): bool
     {
         if ($command->getName() === "orespawner") {
-            $typesArray = ["coal", "lapis", "iron", "gold", "diamond", "emerald", "redstone"];
+            $typesArray = ["coal", "lapis", "iron", "gold", "diamond", "emerald", "redstone", "end_stone", "obidian"];
             if (!$sender->hasPermission("orespawner.give")) {
                 $sender->sendMessage(TF::RED . "You do not have permission to use this command!");
                 return false;
