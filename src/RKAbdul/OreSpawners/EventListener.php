@@ -206,7 +206,7 @@ class EventListener implements Listener
         $emeraldid = intval($this->cfg["ore-generator-blocks"]["emerald"]);
         $lapizid = intval($this->cfg["ore-generator-blocks"]["lapis"]);
         $redstoneid = intval($this->cfg["ore-generator-blocks"]["redstone"]);
-        $endstoneid = intval($this->cfg["ore-generator-blocks"]["endstone"]);
+        $endstoneid = intval($this->cfg["ore-generator-blocks"]["end_stone"]);
         $obsidianid = intval($this->cfg["ore-generator-blocks"]["obsidian"]);
         switch ($bbid) {
             case $coalid:
@@ -231,7 +231,7 @@ class EventListener implements Listener
                 $ore = Block::get(Block::REDSTONE_ORE);
                 break;
              case $endstoneid:
-                $ore = Block::get(Block::ENDSTONE);
+                $ore = Block::get(Block::END_STONE);
                 break;
              case $obsidianid:
                 $ore = Block::get(Block::OBSIDIAN);
@@ -259,7 +259,7 @@ class EventListener implements Listener
         $emeraldid = intval($this->cfg["ore-generator-blocks"]["emerald"]);
         $lapizid = intval($this->cfg["ore-generator-blocks"]["lapis"]);
         $redstoneid = intval($this->cfg["ore-generator-blocks"]["redstone"]);
-        $endstoneid = intval($this->cfg["ore-generator-blocks"]["endstone"]);
+        $endstoneid = intval($this->cfg["ore-generator-blocks"]["end_stone"]);
         $obsidianid = intval($this->cfg["ore-generator-blocks"]["obsidian"]);
         switch ($bbid) {
             case $coalid:
@@ -284,7 +284,7 @@ class EventListener implements Listener
                 $ore = "redstone";
                 break;
             case $endstoneid:
-                $ore = "endstone";
+                $ore = "end_stone";
                 break;
             case $obsidianid:
                 $ore = "obsidian";
